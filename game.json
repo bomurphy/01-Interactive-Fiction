@@ -1,0 +1,333 @@
+{
+    "passages": [
+      {
+        "text": "You just woke up at camp. Get up and start your adventure!\nSelect the type of transportation you would like to use to go into Town \n\n[[Horse->Horse]]\n[[Wagon->Wagon]]\n[[On Foot->Foot]]",
+        "links": [
+          {
+            "name": "Horse",
+            "link": "Horse",
+            "pid": "2"
+          },
+          {
+            "name": "Wagon",
+            "link": "Wagon",
+            "pid": "3"
+          },
+          {
+            "name": "On Foot",
+            "link": "Foot",
+            "pid": "4"
+          }
+        ],
+        "name": "Base Camp",
+        "pid": "1",
+        "position": {
+          "x": "412",
+          "y": "189"
+        }
+      },
+      {
+        "text": "You have made it into Town on your Horse\nWhat would you like to do now!\n\n[[Go to Mae's Tavern->Tavern]]\n[[Go to the Gun Shop->Gun Shop]]\n[[Go to the Trading Post->Trade]]",
+        "links": [
+          {
+            "name": "Go to Mae's Tavern",
+            "link": "Tavern",
+            "pid": "5"
+          },
+          {
+            "name": "Go to the Gun Shop",
+            "link": "Gun Shop",
+            "pid": "6"
+          },
+          {
+            "name": "Go to the Trading Post",
+            "link": "Trade",
+            "pid": "7"
+          }
+        ],
+        "name": "Horse",
+        "pid": "2",
+        "position": {
+          "x": "262",
+          "y": "339"
+        }
+      },
+      {
+        "text": "Oh NO! A wheel fell off your wagon. What would you like to do now?\nFix the Wagon Wheel with your tools on hand or Head back to camp and take another way of transportation.\n\n[[Fix the Wagon wheel->Fix]]\n[[Head to Camp->Base Camp]] ",
+        "links": [
+          {
+            "name": "Fix the Wagon wheel",
+            "link": "Fix",
+            "pid": "8"
+          },
+          {
+            "name": "Head to Camp",
+            "link": "Base Camp",
+            "pid": "1"
+          }
+        ],
+        "name": "Wagon",
+        "pid": "3",
+        "position": {
+          "x": "412",
+          "y": "339"
+        }
+      },
+      {
+        "text": "Oh NO! You have ran into a pack of wolves but they have not spotted you yet. What do you want to do?\nTry to shoot at the wolves and take them out or try to hide until they pass?\n\n[[Shoot->Shoot]]\n[[Hide->Hide]]",
+        "links": [
+          {
+            "name": "Shoot",
+            "link": "Shoot",
+            "pid": "9"
+          },
+          {
+            "name": "Hide",
+            "link": "Hide",
+            "pid": "10"
+          }
+        ],
+        "name": "Foot",
+        "pid": "4",
+        "position": {
+          "x": "562",
+          "y": "339"
+        }
+      },
+      {
+        "text": "Mrs. Mae was happy to see you. Mae has given you multiple food resources to bring back to Camp!\nWhat would you like to do now?\n\n[[Head back to Camp->Base Camp]] \n[[Go to the Gun Shop->Gun Shop]]\n[[Go to the Trading Post->Trade]]",
+        "links": [
+          {
+            "name": "Head back to Camp",
+            "link": "Base Camp",
+            "pid": "1"
+          },
+          {
+            "name": "Go to the Gun Shop",
+            "link": "Gun Shop",
+            "pid": "6"
+          },
+          {
+            "name": "Go to the Trading Post",
+            "link": "Trade",
+            "pid": "7"
+          }
+        ],
+        "name": "Tavern",
+        "pid": "5",
+        "position": {
+          "x": "86",
+          "y": "488"
+        }
+      },
+      {
+        "text": "You have made it to the gun Shop. You have decided to purchase a gun. On your way out One-Eyed Rick challenges you to a duel.\nDo you want to duel One-Eyed Rick or do you want to walk away from the situation? \n\n[[Duel->Duel]]\n[[Walk Away->Walk Away]]",
+        "links": [
+          {
+            "name": "Duel",
+            "link": "Duel",
+            "pid": "13"
+          },
+          {
+            "name": "Walk Away",
+            "link": "Walk Away",
+            "pid": "14"
+          }
+        ],
+        "name": "Gun Shop",
+        "pid": "6",
+        "position": {
+          "x": "337",
+          "y": "489"
+        }
+      },
+      {
+        "text": "You are now at the Trading Post. You have some animal pelts from hunting yesterday.\nWould you like to sell the pelts for profit or would you rather keep the pelts for later use?\n\n[[Sell->Sell]]\n[[Keep->Keep]]",
+        "links": [
+          {
+            "name": "Sell",
+            "link": "Sell",
+            "pid": "11"
+          },
+          {
+            "name": "Keep",
+            "link": "Keep",
+            "pid": "12"
+          }
+        ],
+        "name": "Trade",
+        "pid": "7",
+        "position": {
+          "x": "217",
+          "y": "489"
+        }
+      },
+      {
+        "text": "Congradulations! You fixed the wheel and made it to town. \nWhere would you like to go now?\n\n[[Go to Mae's Tavern->Tavern]]\n[[Go to the Gun Shop->Gun Shop]]\n[[Go to the Trading Post->Trade]]",
+        "links": [
+          {
+            "name": "Go to Mae's Tavern",
+            "link": "Tavern",
+            "pid": "5"
+          },
+          {
+            "name": "Go to the Gun Shop",
+            "link": "Gun Shop",
+            "pid": "6"
+          },
+          {
+            "name": "Go to the Trading Post",
+            "link": "Trade",
+            "pid": "7"
+          }
+        ],
+        "name": "Fix",
+        "pid": "8",
+        "position": {
+          "x": "457",
+          "y": "489"
+        }
+      },
+      {
+        "text": "Sadly there were too many Wolves for you to handle and you couldn't defend yourself.\nPlease restart back at Camp\n\n[[Restart->Base Camp]] ",
+        "links": [
+          {
+            "name": "Restart",
+            "link": "Base Camp",
+            "pid": "1"
+          }
+        ],
+        "name": "Shoot",
+        "pid": "9",
+        "position": {
+          "x": "577",
+          "y": "489"
+        }
+      },
+      {
+        "text": "Congradulations! The pack of Wolves did not find you hiding.\nYou've made it to Town! What would you like to do now?\n\n[[Go to Mae's Tavern->Tavern]]\n[[Go to the Gun Shop->Gun Shop]]\n[[Go to the Trading Post->Trade]]",
+        "links": [
+          {
+            "name": "Go to Mae's Tavern",
+            "link": "Tavern",
+            "pid": "5"
+          },
+          {
+            "name": "Go to the Gun Shop",
+            "link": "Gun Shop",
+            "pid": "6"
+          },
+          {
+            "name": "Go to the Trading Post",
+            "link": "Trade",
+            "pid": "7"
+          }
+        ],
+        "name": "Hide",
+        "pid": "10",
+        "position": {
+          "x": "697",
+          "y": "489"
+        }
+      },
+      {
+        "text": "Congradulations! You have sold the animal pelts for a nice profit.\nWhere would you like to go now?\n\n[[Go to Mae's Tavern->Tavern]]\n[[Go to the Gun Shop->Gun Shop]]\n[[Head back to Camp->Base Camp]] ",
+        "links": [
+          {
+            "name": "Go to Mae's Tavern",
+            "link": "Tavern",
+            "pid": "5"
+          },
+          {
+            "name": "Go to the Gun Shop",
+            "link": "Gun Shop",
+            "pid": "6"
+          },
+          {
+            "name": "Head back to Camp",
+            "link": "Base Camp",
+            "pid": "1"
+          }
+        ],
+        "name": "Sell",
+        "pid": "11",
+        "position": {
+          "x": "28",
+          "y": "701"
+        }
+      },
+      {
+        "text": "You decided to keep the animal pelts for later use.\nWhere would you like to go now?\n\n[[Go to Mae's Tavern->Tavern]]\n[[Go to the Gun Shop->Gun Shop]]\n[[Head back to Camp->Base Camp]] ",
+        "links": [
+          {
+            "name": "Go to Mae's Tavern",
+            "link": "Tavern",
+            "pid": "5"
+          },
+          {
+            "name": "Go to the Gun Shop",
+            "link": "Gun Shop",
+            "pid": "6"
+          },
+          {
+            "name": "Head back to Camp",
+            "link": "Base Camp",
+            "pid": "1"
+          }
+        ],
+        "name": "Keep",
+        "pid": "12",
+        "position": {
+          "x": "163",
+          "y": "698"
+        }
+      },
+      {
+        "text": "Congradulations! You defeated One-Eyed Rick in the duel and gained honor in the town!\nWhere would you like to go now?\n\n[[Go to Mae's Tavern->Tavern]]\n[[Go to the Trading Post->Trade]]\n[[Head back to Camp->Base Camp]] ",
+        "links": [
+          {
+            "name": "Go to Mae's Tavern",
+            "link": "Tavern",
+            "pid": "5"
+          },
+          {
+            "name": "Go to the Trading Post",
+            "link": "Trade",
+            "pid": "7"
+          },
+          {
+            "name": "Head back to Camp",
+            "link": "Base Camp",
+            "pid": "1"
+          }
+        ],
+        "name": "Duel",
+        "pid": "13",
+        "position": {
+          "x": "284",
+          "y": "698"
+        }
+      },
+      {
+        "text": "Sadly One-Eyed Rick was mad that you walked away and shot you in the back!\nPlease Restart back at Camp\n\n[[Restart->Base Camp]] ",
+        "links": [
+          {
+            "name": "Restart",
+            "link": "Base Camp",
+            "pid": "1"
+          }
+        ],
+        "name": "Walk Away",
+        "pid": "14",
+        "position": {
+          "x": "416",
+          "y": "701"
+        }
+      }
+    ],
+    "name": "Western Game ",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.9",
+    "ifid": "0FFF074C-1E48-4E44-9669-51A5D93E4431"
+  }
